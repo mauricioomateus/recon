@@ -11,6 +11,10 @@ if [ $resposta == "200" ]
 then
 echo "Diretorio encontrado: $1/$word/"
 
+else
+
+echo "... Nenhum diretorio encontrado ..."
+
 fi
 done
 
